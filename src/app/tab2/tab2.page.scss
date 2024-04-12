@@ -1,0 +1,30 @@
+.map {
+  height: 100vh;
+  .office-icon {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 4px;
+    background-color: white;
+  }
+
+  .map-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .my-location {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+  }
+}
+
+.grid-footer {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

@@ -19,6 +19,7 @@ export class Tab1Page implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    return;
   }
 
   capture() {
@@ -47,9 +48,7 @@ export class Tab1Page implements OnInit {
 
   async getLocation() {
     const coordinates = await Geolocation.getCurrentPosition();
-    console.log('Current position:', coordinates);
     await this.afs.doc('locations/1').update({lat: coordinates.coords.latitude, lng: coordinates.coords.longitude});
-    console.log('Current position:', coordinates);
   }
 
   stopCapture() {
