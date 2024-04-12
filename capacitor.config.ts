@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.arha.mapbackgroundrunner',
-  appName: 'MapBackgroundRunner',
+  appId: 'com.arhasri.maps',
+  appName: 'Map Box Test',
   webDir: 'www',
   server: {
     androidScheme: 'https'
