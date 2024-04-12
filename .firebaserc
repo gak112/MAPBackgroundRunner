@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "grasis-8dffb": {
+      "hosting": {
+        "app": [
+          "grasis-8dffb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "grasis-8dffb"
+  }
+}
